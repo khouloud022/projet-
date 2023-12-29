@@ -148,7 +148,6 @@ void annuler_Reservation(reservation *res, int *nb_reservations, int numeroReser
             break; 
         }
     }
-
     if (position != -1) {
         for (i = position; i < (*nb_reservations - 1); i++) {
             res[i] = res[i + 1];
